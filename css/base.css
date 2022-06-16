@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Latto, Arial, Helvetica, sans-serif !important;
+}
+
+p {
+    font-size: 130%;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none !important;
+    color: #4E6A7E !important;
+}
+
+#logo {
+    width: 60%;
+    height: 60%;
+    margin: 1%;
+}
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100vw;
+    z-index: 6;
+    padding-left: 0px !important;
+}
+
+.navbar-brand {
+    margin-left: 1rem !important;
+}
+
+.navbar ul {
+    position: absolute;
+    right: 0;
+    margin-right: 90px !important;
+}
+
+.navbar li {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.navbar a {
+    color: #7597A9 !important;
+    font-weight: 400;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+
+.navbar a:hover {
+    color: #476271 !important;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+
+.navbar li.active a{
+    color: #374C58 !important;
+    font-weight: 800;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+
+/** Window title **/
+.page-title {
+    color: #374C58 !important;
+    position: relative;
+    margin: 2% 10%;
+    padding: 0.5rem;
+    width: fit-content;
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.page-title::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    left: -5%;
+    top: -5%;
+    bottom: 25%;
+    background: #374C58 !important;
+}
+
+.page-title::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    top: -5%;
+    left: -5%;
+    right: -25%;
+    background: #374C58 !important;
+}

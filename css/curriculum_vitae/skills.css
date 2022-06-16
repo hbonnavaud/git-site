@@ -1,0 +1,164 @@
+
+#skills-window .window-content {
+    margin-bottom: 50px;
+}
+
+/** Global style **/
+#skills-window p {
+    font-size: 18px;
+    margin-bottom: 4px !important;
+}
+
+/** Profile picture **/
+#skills-window .profile-image-container {
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+    overflow: hidden;
+    margin: auto;
+}
+
+#skills-window .profile-image-container img {
+    transform: scale(1);
+
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+#skills-window .profile-image-container:hover img {
+    transform: scale(1.2);
+}
+
+.skills-family {
+    margin-left: 3rem !important;
+}
+
+/** General informations **/
+@media (max-width: 767px) {
+    .row.name p {
+        width: 100%;
+        text-align: center;
+    }
+    .general-info .col-md-4 {
+        margin-bottom: 20px;
+    }
+    .languages .skill {
+        margin: 0 auto;
+    }
+    .general-info p {
+        text-align: center;
+    }
+    .skills-family {
+        margin-left: 100px !important;
+    }
+}
+
+#skills-window .name p {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+/** Skill family **/
+
+.skills-family-header img {
+    vertical-align: middle;
+    margin-left: 13px;
+    transform: rotate(0deg);
+
+    -ms-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.skills-family-header {
+    position: relative;
+    padding: 13px;
+}
+
+h4.skills-family-header {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+h5.skills-family-header {
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.skill-family-content {
+    display: none;
+}
+
+/** Skill row **/
+
+#skills-window .skill {
+    width: fit-content;
+    text-align: center;
+}
+
+#skills-window .skill .skill-name {
+    margin: auto !important;
+}
+
+.skill-level-container {
+    margin: auto 20px;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+/** Skill family opening animation */
+.skills-family h4.skills-family-header:before, .skills-family h4.skills-family-header::before {
+    position: absolute;
+    content: "";
+    background: #374C58 !important;
+    height: 2px;
+    left: 0;
+    width: 400px;
+    bottom: 0;
+
+    right: 10%;
+
+    -ms-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.skills-family.opened h4.skills-family-header:before, .skills-family.opened h4.skills-family-header::before {
+
+    /* If unselected */
+    width: 0;
+}
+
+.skills-family h4 + .skill-family-content:before, .skills-family h4 + .skill-family-content::before {
+    position: absolute;
+    content: "";
+    background: #374C58 !important;
+    left: 0;
+    width: 2px;
+    top: 0;
+    height: 0;
+
+    -ms-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.skills-family.opened  h4 + .skill-family-content:before, .skills-family.opened h4 + .skill-family-content::before {
+    /* If unselected */
+    height: 90%;
+}
+
+.skills-family.opened > .skills-family-header img {
+    transform: rotate(225deg);
+}

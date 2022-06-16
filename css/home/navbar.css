@@ -1,0 +1,70 @@
+.navbar {
+    background: transparent !important;
+}
+
+.navbar:before {
+    background: #f8f9fa !important;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    z-index: -1;
+}
+
+.navbar:after {
+    background: #2b3b44 !important;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:0;
+    right:0;
+    z-index: -1;
+    top: 100%;
+
+    -ms-transition: top 0.3s ease;
+    -moz-transition: top 0.3s ease;
+    -webkit-transition: top 0.3s ease;
+}
+
+.navbar.initial:after {
+    top: 0 !important;
+
+    -ms-transition: top 0.3s ease;
+    -moz-transition: top 0.3s ease;
+    -webkit-transition: top 0.3s ease;
+}
+
+.navbar.initial a {
+    color: #D9D9D9 !important;
+
+    -ms-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+}
+
+.navbar.initial a {
+    color: #D9D9D9 !important;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+
+.navbar.initial a:hover {
+    color: #D9D9D9 !important;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+
+.navbar.initial li.active a{
+    color: #D9D9D9 !important;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+

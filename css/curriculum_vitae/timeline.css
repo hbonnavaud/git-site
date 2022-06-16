@@ -1,0 +1,245 @@
+/** timeline */
+
+.timeline {
+    position: relative;
+    background: inherit;
+    margin: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+.timeline:after, .timeline::after {
+    background-color: rgba(152, 166, 173, 0.3) !important;
+    bottom: 0px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 30px;
+    width: 2px;
+    z-index: 0;
+}
+
+.timeline .timeline-information {
+    position: relative;
+    z-index: 2;
+    padding: 0.3rem 0;
+    color: grey;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/** Timeline card */
+
+.timeline .timeline-card {
+    position: relative;
+    width: 40%;
+    margin: 1rem 0;
+
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+
+    -webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.5);
+}
+
+.timeline .timeline-card * {
+    z-index: 2;
+}
+
+.timeline .timeline-card.right {
+    left: 54%;
+}
+
+.timeline .timeline-card.left {
+    left: 6%;
+}
+
+.timeline .timeline-card:after, .timeline .timeline-card::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: inherit;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.timeline .timeline-card.left:after, .timeline .timeline-card.left::after {
+    top: 50%;
+    left: 100%;
+
+    -webkit-box-shadow: 10px -10px 20px -7px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px -10px 20px -7px rgba(0,0,0,0.5);
+    box-shadow: 10px -10px 20px -7px rgba(0,0,0,0.5);
+}
+
+.timeline .timeline-card.right:after, .timeline .timeline-card.right::after {
+    top: 50%;
+    left: 0%;
+
+    -webkit-box-shadow: -10px 10px 20px -7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -10px 10px 20px -7px rgba(0,0,0,0.5);
+    box-shadow: -10px 10px 20px -7px rgba(0,0,0,0.5);
+}
+
+.timeline .timeline-card .card-header {
+    width: 100%;
+    display: flex;
+    background: transparent;
+}
+
+.timeline .timeline-card.right .card-header {
+    justify-content: flex-start;
+}
+
+.timeline .timeline-card.left .card-header {
+    justify-content: flex-end;
+}
+
+
+.timeline .timeline-card .card-body {
+    height: fit-content;
+    background: transparent;
+    padding: 1.25rem;
+}
+
+.timeline .timeline-card .date {
+    position: absolute;
+    width: fit-content;
+    margin: auto;
+    color: grey;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.timeline .timeline-card.left .date {
+    text-align: left;
+    width: 100%;
+    left: 65%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.timeline .timeline-card.right .date {
+    text-align: right;
+    width: 100%;
+    left: -115%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.timeline .timeline-card .title {
+    margin: auto 20px;
+
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.timeline .timeline-card .description {
+    font-size: 0.95rem;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+.timeline .timeline-card .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    background: transparent;
+    height: 0;
+    padding: 0 1.25rem;
+    overflow: hidden;
+
+    -ms-transition: 0.9s ease-in-out;
+    -webkit-transition: 0.9s ease-in-out;
+    -moz-transition: 0.9s ease-in-out;
+    -o-transition: 0.9s ease-in-out;
+    transition: 0.9s ease-in-out;
+}
+
+.timeline .timeline-card:hover .card-footer {
+    height: fit-content;
+    padding: 1.25rem;
+    padding-bottom: 0 !important;
+}
+
+.timeline .timeline-card .card-footer a {
+    margin: auto 20px;
+}
+
+
+.timeline .timeline-card .card-footer a {
+    text-decoration: none !important;
+    color: #7597A9 !important;
+    font-weight: 400;
+    margin: auto 20px;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+
+.timeline .timeline-card .card-footer a:hover {
+    color: #476271 !important;
+
+    -ms-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -webkit-transition: color 0.1s ease;
+}
+
+/** Grades modals */
+
+.modal-dialog{
+    max-width: unset !important;
+    width: fit-content !important;
+    overflow-y: initial !important
+}
+
+.modal-body{
+    overflow-y: auto;
+}
+
+/* Info buttons */
+
+.hover-info-button p {
+    margin: 0;
+}
+
+.hover-info-button .before-hover {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    -ms-transition: 0.4s ease-in-out, height 0s;
+    -webkit-transition: 0.4s ease-in-out, height 0s;
+    -moz-transition: 0.4s ease-in-out, height 0s;
+    -o-transition: 0.4s ease-in-out, height 0s;
+    transition: 0.4s ease-in-out, height 0s;
+}
+
+.hover-info-button:hover .before-hover {
+    width: 0;
+    height: 0;
+}
+
+.hover-info-button .after-hover {
+    overflow: hidden;
+    float: right;
+    white-space: nowrap;
+    width: 0;
+    height: 0;
+
+    -ms-transition: 0.4s ease-in-out, height 0s;
+    -webkit-transition: 0.4s ease-in-out, height 0s;
+    -moz-transition: 0.4s ease-in-out, height 0s;
+    -o-transition: 0.4s ease-in-out, height 0s;
+    transition: 0.4s ease-in-out, height 0s;
+}
+
+.hover-info-button:hover .after-hover {
+    width: 100%;
+    height: 100%;
+}

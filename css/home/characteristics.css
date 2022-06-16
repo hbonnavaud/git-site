@@ -1,0 +1,17 @@
+.characteristics {
+    position: relative;
+    z-index: 2;
+    background: #D9D9D9 !important;
+}
+
+.characteristics p, .characteristics h3 {
+    color: #2b3b44 !important;
+    font-family: Latto, Arial, Helvetica, sans-serif !important
+}
+
+.characteristic-item {
+    width: 30%;
+}
+.characteristic-item img {
+    margin: 20px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Accueil - Hedwin BONNAVAUD</title>
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/base.css" type="text/css">
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
+
+        <link rel="stylesheet" type="text/css" href="css/home/navbar.css">
+        <link rel="stylesheet" type="text/css" href="css/home/header_bg.css">
+        <link rel="stylesheet" type="text/css" href="css/home/header_name.css">
+        <link rel="stylesheet" type="text/css" href="css/home/personnal_image.css">
+        <link rel="stylesheet" type="text/css" href="css/home/characteristics.css">
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body class="bg-light">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            if ($(window).width() < 1090) {
+                window.location.replace("http://www.hbonnavaud.com/phone");
+            }
+        </script>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light initial">
+            <div class="transition-backgound"></div>
+            <a class="navbar-brand" href="index.html"><img id="logo" src="images/base/logo-D9.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="curriculum_vitae.html">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- body -->
+        <div class="home-header overflow-hidden align-self-center">
+            <div class="keyboard-image-container">
+                <img id="letters_image" src="./images/home/keyboard_letters.png">
+            </div>
+            <h1 id="name">
+                <span class="first-name initial">HEDWIN</span>
+                <span class="last-name initial">BONNAVAUD</span>
+            </h1>
+            <div class="profile-picture container">
+                <img src="./images/home/me.png">
+            </div>
+        </div>
+        <div class="personal-presentation m-5 p-5">
+            <div class="row">
+                <div class="col-md-5">
+                </div>
+                <div class="presentation-text container col-md-7 align-self-center text-center">
+                    <p>
+                        Hi! I’m Hedwin BONNAVAUD, I’m currently doing a PhD at ISAE Supaero about approaches to achieve autonomous robot mission
+                        tasks using AI Planning and Reinforcement Learning. I started my PhD in october the 18th after an internship on sequential learning of intrinsic skills using intrinsic motivation and reinforcement learning at LIRIS laboratory.
+                        <a href="contact.html">Contact me</a>!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="characteristics p-5 m-0 text-center">
+            <div class="d-flex justify-content-center">
+                <h2>Research fields and center of interest</h2>
+            </div>
+            <div class="row d-flex justify-content-around text-center p-5">
+                <div class="characteristic-item">
+                    <h3>Reinforcement learning</h3>
+                </div>
+                <div class="characteristic-item">
+                    <h3>Automated planning</h3>
+                </div>
+                <div class="characteristic-item">
+                    <h3>Robotics</h3>
+                </div>
+            </div>
+            <p>Looking for more details? Take a look to my <a href="curriculum_vitae.html">resume!</a></p>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <!-- Social networks -->
+            <div class="row d-flex justify-content-center p-5">
+                <a href="https://www.linkedin.com/in/hedwin-bonnavaud-2781b210b/?originalSubdomain=fr<">
+                    <img width="70px" height="70px" src="images/links/linkedIn_white.png">
+                </a>
+                <a href="https://www.instagram.com/hbonnavaud/?hl=fr">
+                    <img width="70px" height="70px" src="images/links/instagram_white_2.png">
+                </a>
+                <a href="https://www.facebook.com/hedwin.bonnavaud/">
+                    <img width="70px" height="70px" src="images/links/facebook_white.png">
+                </a>
+            </div>
+
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p class="d-flex justify-content-center"><a href="index.html">Accueil</a></p>
+                        <p class="d-flex justify-content-center"><a href="curriculum_vitae.html">Curriculum-vitae</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p class="d-flex justify-content-center"><a href="projects.html">Projets et réalisations</a></p>
+                        <p class="d-flex justify-content-center"><a href="contact.html">Contactez-moi</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="legal-mention text-center p-4">
+                <p style="padding: 10px">Tous droits réservés © 2020 Hedwin Bonnavaud</p>
+            </div>
+        </div>
+
+        <!-- bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- javascript -->
+        <script type="text/javascript" src="js/home.js"></script>
+    </body>
+</html>

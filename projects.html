@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Projets - Hedwin BONNAVAUD</title>
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/base.css" type="text/css">
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
+
+        <style type="text/css">
+            .project-description {
+                font-size: 100%;
+                overflow: hidden;
+                max-height: 30px;
+    
+                -ms-transition: 0.7s ease-in-out;
+                -webkit-transition: 0.7s ease-in-out;
+                -moz-transition: 0.7s ease-in-out;
+                -o-transition: 0.7s ease-in-out;
+                transition: 0.7s ease-in-out;
+            }
+    
+            .card:hover .project-description {
+                max-height: 999px;
+            }
+        </style>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body class="bg-light">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            if ($(window).width() < 1090) {
+                window.location.replace("http://www.hbonnavaud.com/phone");
+            }
+        </script>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light initial">
+            <div class="transition-backgound"></div>
+            <a class="navbar-brand" href="index.html"><img id="logo" src="images/base/logo-2b.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="curriculum_vitae.html">Curriculum</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- body -->
+        <div name="page-margin-under-navbar" style="height: 74px; width: 100%;"></div>
+
+        <h2 class="page-title">Projets</h2>
+
+        <div class="container">
+            <div class="row">
+                <!-- First column -->
+                <div class="col-md-4">
+
+                    <!-- First tile -->
+                    <div class="card my-4">
+                        <img alt="project main image" class="card-img-top" src="projects/data/theorie_des_jeux/main_picture.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Théorie des jeux</h4>
+                            <p class="card-text project-description">L'objectif de ce projet de théorie des jeux était d'implémenter la stratégie prudente du jeu du troll.
+                                <br/><br/> Nous sommes allés plus loin, en implémentant d'autres stratégies, et en comparant leurs performances
+                                dans un tournoi, inspiré de celui de Robert Axelrod. <br/><br/> Ce projet a été réalisé en binôme avec Tristan
+                                Guillard.</p>
+                            <div class="row d-flex justify-content-end">
+                                <a href="projects/data/theorie_des_jeux/Projet_TDJ/trollgame.zip" class="mx-2 my-1">Télécharger le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second tile -->
+                    <div class="card my-4">
+                        <img alt="project main image" class="card-img-top" src="projects/data/Kohonen_neuronal_network/main_picture.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Réseau de neurones et cartes de Kohonen</h4>
+                            <p class="card-text project-description">L'objectif de ce projet d'intelligence artificielle, est d'étudier le fonctionnement des cartes de
+                                kohonen. <br/><br/> Pour cela, nous avons développé un réseau de neurones sous forme d'une carte de kohonen,
+                                modifié les paramètres de la fonction d'apprentissage pour en étudier l'impact et enfin mis cette étude en
+                                pratique dans le développement d'un bras robotique autonome basique.</p>
+                            <div class="row d-flex justify-content-end">
+                                <a href="projects/data/Kohonen_neuronal_network/BONNAVAUD_Hedwin-IA-Kohonen.zip" class="mx-2 my-1">Télécharger le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second column -->
+                <div class="col-md-4">
+
+                    <!-- First tile -->
+                    <div class="card my-4">
+                        <img alt="project main image" class="card-img-top" src="projects/data/multi_agents_system/Capture_TIA.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Systèmes multi-agents - Simulation COVID-19 avec NetLogo</h4>
+                            <p class="card-text project-description">L'objectif de ce projet d'intelligence artificielle, est de comprendre le fonctionnement des systèmes
+                                multi-agents en développant la simulation de la propagation d'une épidémie. <br/> Les fonctionnalités à ajouter
+                                à cette simulation étaient toutes au choix, nous nous sommes donc fortement inspiré de la COVID-19, ce projet ayant
+                                été réalisé en plein confinement. <br/> Pour exécuter le code, il est indispensable d'avoir installé le logiciel
+                                NetLogo (gratuit) <br/><br/> Ce projet a été réalisé en binôme avec Aristide Dullin.</p>
+                            <div class="row d-flex justify-content-end">
+                                <a href="projects/data/multi_agents_system/Projet_NetLogo-HedwinBonnavaud_AristideDullin.zip" class="mx-2 my-1">Télécharger le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second tile -->
+                    <div class="card my-4">
+                        <img alt="project main image" class="card-img-top" src="projects/data/pom/main_picture.png">
+                        <div class="card-body">
+                            <h4 class="card-title">IA et Pelotons de Véhicule autonome : Gestion automatique de la traversée d’une intersection intelligente</h4>
+                            <p class="card-text project-description">Pour ce <a href=\"http://offre-de-formations.univ-lyon1.fr/ue-16775-140%2Fprojet-pour-l%27
+                                orientation-en-master.html\"> projet d'orientation en master</a>, notre trinôme (projet réalisé avec Vincent
+                                Kleinbauer et Martin Dalery), a étudié une méthode pour gérer la traversée d'une intersection par des groupes de
+                                véhicules autonomes.</p>
+                            <div class="row d-flex justify-content-end">
+                                <a href="projects/data/pom/compte_rendus_et_annexe.zip" class="mx-2 my-1">Compte rendu et anexe du projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third column -->
+                <div class="col-md-4">
+
+                    <!-- First tile -->
+                    <div class="card my-4">
+                        <img alt="project main image" class="card-img-top" src="projects/data/SMA-Termites/SMA_Termites.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Systèmes multi-agents - Tri inspiré du comportement des termites</h4>
+                            <p class="card-text project-description">En utilisant les informations d'un article scientifique (Deneubourgl, & al.), 
+                                nous avons généré un environnement contenant de multiples objets de deux types. Le rôle des agents est de trier ces 
+                                objets en s'inspirant du comportement des termites. Nous avons ensuite cherché à améliorer l'algorithme en modifiant 
+                                des paramètres, et sommes parvenus à trouver une meilleure version que celle proposée dans l'article. 
+                                Ce projet a été réalisé avec ORTEGA Guillaume dans le cadre de l'UE SMA, M2 IA.</p>
+                            <div class="row d-flex justify-content-end">
+                                <a href="projects/data/SMA-Termites/projet_sma_termites.zip" class="mx-2 my-1">Compte rendu et anexe du projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <!-- Social networks -->
+            <div class="row d-flex justify-content-center p-5">
+                <a href="https://www.linkedin.com/in/hedwin-bonnavaud-2781b210b/?originalSubdomain=fr<">
+                    <img width="70px" height="70px" src="images/links/linkedIn_white.png">
+                </a>
+                <a href="https://www.instagram.com/hbonnavaud/?hl=fr">
+                    <img width="70px" height="70px" src="images/links/instagram_white_2.png">
+                </a>
+                <a href="https://www.facebook.com/hedwin.bonnavaud/">
+                    <img width="70px" height="70px" src="images/links/facebook_white.png">
+                </a>
+            </div>
+
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p class="d-flex justify-content-center"><a href="index.html">Accueil</a></p>
+                        <p class="d-flex justify-content-center"><a href="curriculum_vitae.html">Curriculum-vitae</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p class="d-flex justify-content-center"><a href="projects.html">Projets et réalisations</a></p>
+                        <p class="d-flex justify-content-center"><a href="contact.html">Contactez-moi</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="legal-mention text-center p-4">
+                <p style="padding: 10px">Tous droits réservés © 2020 Hedwin Bonnavaud</p>
+            </div>
+        </div>
+
+        <!-- bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- javascript -->
+    </body>
+</html>

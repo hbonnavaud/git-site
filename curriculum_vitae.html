@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Curriculum Vitae - Hedwin BONNAVAUD</title>
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/base.css" type="text/css">
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
+
+        <link rel="stylesheet" type="text/css" href="css/curriculum_vitae/window_switcher.css">
+        <link rel="stylesheet" type="text/css" href="css/curriculum_vitae/timeline.css">
+        <link rel="stylesheet" type="text/css" href="css/curriculum_vitae/hobbies.css">
+        <link rel="stylesheet" type="text/css" href="css/curriculum_vitae/skills.css">
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body class="bg-light">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            if ($(window).width() < 1090) {
+                window.location.replace("http://www.hbonnavaud.com/phone");
+            }
+        </script>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light initial">
+            <div class="transition-backgound"></div>
+            <a class="navbar-brand" href="index.html"><img id="logo" src="images/base/logo-2b.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="curriculum_vitae.html">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- body -->
+        <div id="curriculum_begin" class="row" style="width: 100%;">
+
+            <!-- Section selector -->
+            <div class="menu">
+                <ul class="d-flex flex-column justify-content-center">
+                    <li id="skills-option" class="d-flex flex-column justify-content-center selected">
+                        <img alt="Skills" height="45px" width="45px" src="images/curriculum_vitae/competences_grey.png">
+                        <p class="p-2">Skills</p>
+                    </li>
+                    <li id="experiences-option" class="d-flex flex-column justify-content-center">
+                        <img alt="Experiences" height="45px" width="45px" src="images/curriculum_vitae/experience_grey.png">
+                        <p class="p-2">Experiences</p>
+                    </li>
+                    <li id="education-option" class="d-flex flex-column justify-content-center">
+                        <img alt="Education" height="45px" width="45px" src="images/curriculum_vitae/formation_grey.png">
+                        <p class="p-2">School</p>
+                    </li>
+                    <li id="hobbies-option" class="d-flex flex-column justify-content-center">
+                        <img alt="Hobbies" height="45px" width="45px" src="images/curriculum_vitae/loisirs_grey.png">
+                        <p class="p-2">Hobbies</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- sections -->
+            <div name="page-margin-under-navbar" style="height: 74px; width: 100%;"></div>
+            <div class="window-container col-md-12" style="padding: 0 !important;">
+                <div id="skills-window" class="window active text-center bg-light" style="display: block;">
+                    <div class="row">
+                        <div class="window-content col-md-11 mx-auto">
+                            <div class="mr-5 window-header d-flex justify-content-between">
+                                <h2 class="page-title">Compétences</h2>
+                                <a class="my-auto align-middle" data-toggle="modal" data-target="#chooseLanguage">
+                                    <div class="my-auto align-middle download-alert alert alert-info d-flex justify-content-between" role="alert">
+                                        <strong style="min-width: fit-content">Téléchargez la version pdf ! </strong>
+                                        <img class="ml-4" height="25px" width="25px" src="images/curriculum_vitae/download_icon.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Skills window content -->
+                            <div class="col-md-11 mx-auto">
+                                <div class="row" style="margin-bottom: 30px;">
+
+                                    <!-- Profile picture -->
+                                    <div class="col-md-3">
+                                        <img class="img-fluid rounded-circle" alt="hedwin bonnavaud profile picture" width="200px" height="200px" src=" images/curriculum_vitae/skills/squared_profile.jpg">
+                                    </div>
+
+                                    <!-- Informations -->
+                                    <div class="col-md-9">
+                                        <!-- name -->
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <h2 class="display-4 font-weight-boldtué il est assez simple je trouve"> BONNAVAUD Hedwin</h2>
+                                            </div>
+                                        </div>
+
+                                        <!-- Genaral informations -->
+                                        <div class="general-info row">
+                                            <div class="col-md-4 text-left">
+                                                <p class="email"><a href="contact.html">hedwin.bonnavaud@isae-supaero.fr</a></p>
+                                                <p class="phone"><a href="contact.html">(+33)6 24 17 57 25</a></p>
+                                            </div>
+                                            <div class="col-md-4 text-left">
+                                                <p class="birth-date">Bornon November the 16th, 1996</p>
+                                                <p class="nationality">French</p>
+                                                <p class="license">International driving licence</p>
+                                            </div>
+
+                                            <!-- Languages skills -->
+                                            <div class="languages col-md-3 text-left">
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-100"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Français</p>
+                                                </div>
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-80"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">English</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end row (resume header with profile picture and general information) -->
+                                <!-- End information -->
+
+                                <!-- Skills -->
+
+                                <!-- Computer science skills -->
+                                <div id="csi-skills" class="skills-family row col-md-10 my-3">
+                                    <h4 class="skills-family-header">
+                                        Computer science
+                                        <img height=30px" width="30px" alt="plus - dropdown hint" src="images/icons/plus.png"/>
+                                    </h4>
+                                    <div id="target" class="skill-family-content col-md-11">
+                                        <div class="row d-flex justify-content-around w-100">
+                                            <!-- First col -->
+                                            <div class="col-md-4">
+                                                <!-- Intelligence artificielle -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-65"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Artificial intelligence</p>
+                                                </div>
+
+                                                <!-- Algorithmie -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-80"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Algorithmic</p>
+                                                </div>
+
+                                                <!-- Programmation web -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-70"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Web computing</p>
+                                                </div>
+                                            </div> <!-- end first col -->
+
+                                            <!-- Second col -->
+                                            <div class="col-md-4">
+
+                                                <!-- Systèmes et réseaux -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-30"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Networking</p>
+                                                </div>
+
+                                                <!-- Optimisation -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-60"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Optimisation</p>
+                                                </div>
+
+                                                <!-- Programmation logiciel -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-50"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Software engineering</p>
+                                                </div>
+                                            </div> <!-- end second col -->
+                                        </div> <!-- end layout -->
+                                    </div> <!-- end family content -->
+                                </div> <!-- end csi skills family -->
+
+                                <!-- Programming languages skills -->
+                                <div id="programming-skills" class="skills-family row col-md-10 my-3">
+                                    <h4 class="skills-family-header">
+                                        Programming languages
+                                        <img height=30px" width="30px" alt="plus - dropdown hint" src="images/icons/plus.png"/>
+                                    </h4>
+                                    <div class="skill-family-content col-md-10">
+                                        <div id="famille_programmation_logiciel" class="skills-family row w-100">
+                                            <h5 id="titre_programmation_logiciel" class="skills-family-header">
+                                                Software engineering
+                                                <img height=30px" width="30px" alt="plus - dropdown hint" src="images/icons/plus.png"/>
+                                            </h5>
+                                            <div id="contenu_programmation_logiciel" class="skill-family-content col-md-11 mx-auto">
+                                                <div class="row d-flex justify-content-around w-100"> <!-- skill family content layout -->
+                                                    <!-- First col - Python -->
+                                                    <div class="col-md-3">
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas id="doughnut_python" width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-90"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">Python</p>
+                                                        </div>
+                                                    </div> <!-- End first col -->
+
+                                                    <!-- Second col - Java -->
+                                                    <div class="col-md-3">
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas id="doughnut_java" width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-80"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">Java</p>
+                                                        </div>
+
+                                                    </div> <!-- end second col -->
+
+                                                    <!-- Third col - C++ -->
+                                                    <div class="col-md-3">
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas id="doughnut_c++" width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-60"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">C++</p>
+                                                        </div>
+                                                    </div> <!-- End third col -->
+                                                </div> <!-- end skill family content layout -->
+                                            </div> <!-- end family content -->
+                                        </div> <!-- End software programming languages skills -->
+
+                                        <!-- Web programming languages skills -->
+                                        <div class="skills-family row w-100">
+                                            <h5 class="skills-family-header">
+                                                Web computing
+                                                <img height=30px" width="30px" alt="plus - dropdown hint" src="images/icons/plus.png"/>
+                                            </h5>
+                                            <div class="skill-family-content col-md-11 mx-auto">
+                                                <div class="row d-flex justify-content-around w-100"> <!-- skill family content layout -->
+                                                    <!-- First col -->
+                                                    <div class="col-md-4">
+                                                        <!-- HTML -->
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-70"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">HTML</p>
+                                                        </div>
+
+                                                        <!-- JS -->
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-75"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">JS</p>
+                                                        </div>
+
+                                                        <!-- JEE -->
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-55"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">Java et JEE</p>
+                                                        </div>
+                                                    </div> <!-- end first col -->
+
+                                                    <!-- Second col -->
+                                                    <div class="col-md-4">
+                                                        <!-- CSS -->
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-80"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">CSS</p>
+                                                        </div>
+
+                                                        <!-- PHP -->
+                                                        <div class="skill row d-flex justify-content-between mb-3">
+                                                            <div class="skill-level-container">
+                                                                <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-60"></canvas>
+                                                            </div>
+                                                            <p class="skill-name">PHP</p>
+                                                        </div>
+                                                    </div> <!-- end second col -->
+                                                </div> <!-- end skill family content layout -->
+                                            </div> <!-- end family content -->
+                                        </div> <!-- End web programming languages skills -->
+                                    </div>
+                                </div>
+
+                                <!-- Others skills -->
+                                <div id="working-skills" class="skills-family row col-md-10 my-3">
+                                    <h4 class="skills-family-header">
+                                        Autres compétences
+                                        <img height=30px" width="30px" alt="plus - dropdown hint" src="images/icons/plus.png"/>
+                                    </h4>
+                                    <div class="skill-family-content col-md-10">
+                                        <div class="row d-flex justify-content-around w-100">
+                                            <!-- First col -->
+                                            <div class="col-md-6">
+                                                <!-- Team management -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-70"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Gestion d'équipe</p>
+                                                </div>
+
+                                                <!-- Speak to a public -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-65"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Parole en public</p>
+                                                </div>
+
+                                                <!-- Unforeseen situation adaptation -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-95"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Adaptation aux imprévus</p>
+                                                </div>
+
+                                                <!-- Unforeseen situation adaptation -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-95"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Gestion du rythme de someil</p>
+                                                </div>
+                                            </div> <!-- end first col -->
+
+                                            <!-- Second col -->
+                                            <div class="col-md-6">
+                                                <!-- Project management -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-75"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Gestion de projet</p>
+                                                </div>
+
+                                                <!-- Event management -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-80"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Gestion d'événement</p>
+                                                </div>
+
+                                                <!-- Communication management -->
+                                                <div class="skill row d-flex justify-content-between mb-3">
+                                                    <div class="skill-level-container">
+                                                        <canvas width="50" height="50" class="chartjs-render-monitor skill-level-doughnut level-50"></canvas>
+                                                    </div>
+                                                    <p class="skill-name">Gestion de la communication</p>
+                                                </div>
+                                            </div> <!-- end second col -->
+                                        </div>
+                                    </div> <!-- end family content -->
+                                </div>
+
+                            </div> <!-- end col-md-11 -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="experiences-window" class="window text-center bg-light">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="window-content col-md-11">
+                            <div class="m-auto">
+                                <div class="mr-5 window-header d-flex justify-content-between">
+                                    <h2 class="page-title">Expériences</h2>
+                                    <a class="my-auto align-middle" data-toggle="modal" data-target="#chooseLanguage">
+                                        <div class="my-auto align-middle download-alert alert alert-info d-flex justify-content-between" role="alert">
+                                            <strong style="min-width: fit-content">Téléchargez la version pdf ! </strong>
+                                            <img class="ml-4" height="25px" width="25px" src="images/curriculum_vitae/download_icon.png">
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <!-- timeline -->
+                                <div class="timeline bg-inherit">
+
+                                    <!-- card - CDD Ortec -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2019</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title">Informaticien - <a href="https://ortec-group.com/agences/ortec-environnement-thonon-les-bains/">Ortec Environnement</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Développement et gestion d'un projet de dématérialisation informatique chez <a href="https://ortec-group.com/agences/ortec-environnement-thonon-les-bains/">Ortec Environnement</a> en C.D.D. en juillet et août 2019.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                    <!-- card - Stage Ortec -->
+                                    <div class="card timeline-card left">
+                                        <h1 class="date">2019</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title">Informaticien stagiaire - <a href="https://ortec-group.com/agences/ortec-environnement-thonon-les-bains/">Ortec Environnement</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Stage de développement et gestion d'un projet de dématérialisation informatique chez <a href="https://ortec-group.com/agences/ortec-environnement-thonon-les-bains/">Ortec Environnement</a> pendant 4 mois de mars à juin 2019.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                    <!-- card - CDD FIL -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2018</h1>
+                                        <div class="card-header">
+                                            <div class="card-logo">
+                                                <a href="https://www.festival-interceltique.bzh/">
+                                                    <img width="140px" src="images/curriculum_vitae/experience/fil.png">
+                                                </a>
+                                            </div>
+                                            <h2 class="card-title title">Barmen salarié - <a href="https://www.festival-interceltique.bzh/">Festival Interceltique de Lorient</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Barman salarié du <a href="https://www.primark.com/fr">Festival Interceltique de Lorient</a> en C.D.D.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                    <!-- card - Animateur colonie de vacances IGESA-->
+                                    <div class="card timeline-card left">
+                                        <h1 class="date">2018</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title"> Animateur polyvalent - <a href="https://www.igesa.fr/">IGESA</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Employé pédagogique (animateur) en colonie de vacances organisée par <a href="https://www.igesa.fr/">IGESA</a> pour une durée total de 1 mois. La colonie de vacance avait pour thème les sports aquatique sur l'île de Porquerolles avec des enfants agés de 5 à 13 ans.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                    <!-- card - Bénévole FIL -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2017</h1>
+                                        <div class="card-header">
+                                            <div class="card-logo">
+                                                <a href="https://www.festival-interceltique.bzh/">
+                                                    <img width="140px" src="images/curriculum_vitae/experience/fil.png">
+                                                </a>
+                                            </div>
+                                            <h2 class="card-title title">Barmen bénévole - <a href="https://www.festival-interceltique.bzh/">Festival Interceltique de Lorient</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Barman bénévole du <a href="https://www.primark.com/fr">Festival Interceltique de Lorient</a>.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                    <!-- card - Animateur colonie de vacances IGESA-->
+                                    <div class="card timeline-card left">
+                                        <h1 class="date">2017</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title"> Animateur polyvalent - <a href="https://www.passion-aventure-junior.com/">LCPA</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Employé pédagogique (animateur) en colonie de vacances organisée par <a href="https://www.passion-aventure-junior.com/">LCPA</a> pour une durée total de 2 semaines. La colonie de vacance avait pour thème les sports, les sports extrêmes, et les parcs, en Espagne avec des enfants agés de 5 à 15 ans.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                    <!-- card - Turbulence -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2015 - 16</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title">Vice-président - Association Turbulence</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">L'association turbulence était l'asociation des étudiants
+                                                en science. Elle les représente, les défend et met en place des services pour simplifier
+                                                leurs conditions d'études en plus d'animer le campus et la vie étudiante.</br>
+                                                Poste : V.P.G. (Vice-président général) : a un rôle de direction des administrateurs et
+                                                membres actifs ainsi que de suivi de l’avancement des projets.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+
+                                    <!-- card - Primark -->
+                                    <div class="card timeline-card left">
+                                        <h1 class="date">2015 - 16</h1>
+                                        <div class="card-header">
+                                            <div class="card-logo">
+                                                <a href="https://www.primark.com/fr">
+                                                    <img width="80px" src="images/curriculum_vitae/experience/primark.png">
+                                                </a>
+                                            </div>
+                                            <h2 class="card-title title">Vendeur polyvalent - <a href="https://www.primark.com/fr">Primark</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Vendeur polyvalent du magasin <a href="https://www.primark.com/fr">Primark</a> de la Part-Dieu pendant 7 mois en C.D.I.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                    <!-- card - Animateur centre de loisirs -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2015</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title"> Animateur polyvalent - <a href="http://cle.univ-lyon1.fr/">CLE La Doua</a></h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Employé pédagogique (animateur) au <a href="http://cle.univ-lyon1.fr/">Centre de Loisire Educatif de La Doua</a> pour une durée total de 25 journées.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="education-window" class="window text-center bg-light">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="window-content col-md-11">
+                
+                            <!-- window content -->
+                            <div class="m-auto bg-inherit">
+                                <div class="mr-5 window-header d-flex justify-content-between">
+                                    <h2 class="page-title">Formation</h2>
+                                    <a class="my-auto align-middle" data-toggle="modal" data-target="#chooseLanguage">
+                                        <div class="my-auto align-middle download-alert alert alert-info d-flex justify-content-between" role="alert">
+                                            <strong style="min-width: fit-content">Téléchargez la version pdf ! </strong>
+                                            <img class="ml-4" height="25px" width="25px" src="images/curriculum_vitae/download_icon.png">
+                                        </div>
+                                    </a>
+                                </div>
+                
+                                <!-- timeline -->
+                                <div class="timeline bg-inherit">
+                
+                                    <!-- card - M1 Info -->
+                                    <div class="card timeline-card left">
+                                        <h1 class="date">2020 - 21</h1>
+                                        <div class="card-header">
+                                            <div class="card-logo">
+                                                <a href="https://www.univ-lyon1.fr/">
+                                                    <img height="45px" width="45px" src="images/curriculum_vitae/formation/lyon1.jpeg">
+                                                </a>
+                                            </div>
+                                            <h2 class="card-title title">Master 2 - Intelligence Artificielle</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Seconde année de mon master informatique à Lyon 1, en cours, spécialisée en intelligence artificielle.</p>
+                                            <div class="card-footer">
+                                                <a href="http://master-info.univ-lyon1.fr/IA/">Page du master</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="timeline-information bg-inherit">2020</div>
+                
+                                    <!-- card - M1 Info -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2019 - 20</h1>
+                                        <div class="card-header">
+                                            <div class="card-logo">
+                                                <a href="https://www.univ-lyon1.fr/">
+                                                    <img height="45px" width="45px" src="images/curriculum_vitae/formation/lyon1.jpeg">
+                                                </a>
+                                            </div>
+                                            <h2 class="card-title title">Master 1</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Première année de mon master informatique à l'université Lyon 1. Cette année n'était pas spécialisée, même si les matières du second semestre restaient au choix pour sept d'entre elles.</p>
+                                            <div class="card-footer">
+                                                <a href="http://master-info.univ-lyon1.fr/M1/">Page du master</a>
+                                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#lyon1_grades">Relevé de notes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+                                    <div class="timeline-information bg-inherit">2019</div>
+                
+                                    <!-- card - Echange Ottawa -->
+                                    <div class="card timeline-card left">
+                                        <h1 class="date">Automne 2018</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title">Semestre d'échange à l'université d'Ottawa</h2>
+                                            <div class="card-logo">
+                                                <a href="https://www.uottawa.ca/en">
+                                                    <img height="45px" width="45px" src="images/curriculum_vitae/formation/uottawa.png">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Fin de ma licence informatique avec un échange de 6 mois, durant le semestre d'automne, à l'université d'ottawa. Cette échange sera suivis d'un stage de fin d'étude (cf. experiences)</p>
+                                            <div class="card-footer">
+                                                <a href="https://engineering.uottawa.ca/">Facculté de génie/ingénierie</a>
+                                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#uottawa_grades">Relevé de notes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+                
+                                    <div class="timeline-information bg-inherit">2018</div>
+                
+                                    <!-- card - Licence Info -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2015 - 18</h1>
+                                        <div class="card-header">
+                                            <div class="card-logo">
+                                                <a href="https://www.univ-lyon1.fr/">
+                                                    <img height="45px" width="45px" src="images/curriculum_vitae/formation/lyon1.jpeg">
+                                                </a>
+                                            </div>
+                                            <h2 class="card-title title">Licence informatique</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Licence d'informatique à l'université Lyon 1.</p>
+                                            <div class="card-footer">
+                                                <a href="http://licence-info.univ-lyon1.fr/">Page de la license</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+                
+                                    <div class="timeline-information bg-inherit">2014</div>
+                
+                                    <!-- card - BAFA -->
+                                    <div class="card timeline-card left">
+                                        <h1 class="date">Aout 2014</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title">Formation théorique du BAFA</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Formation théorique du brevet d'aptitude aux fonctions d'animateur</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+                
+                                    <!-- card - Arbitrage -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2012 - 14</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title">Section sportive arbitrage</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Première et terminale scientifique spécialité S.V.T., en parallèle de la section sportive arbitrage en collaboration avec la ligue Rhône-Alpes de football, au lycée frédérique Faÿs de Villeurbanne (69).</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+                
+                                    <!-- card - Seconde -->
+                                    <div class="card timeline-card right">
+                                        <h1 class="date">2011 - 12</h1>
+                                        <div class="card-header">
+                                            <h2 class="card-title title">Seconde générale</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text description">Seconde générale au lycée Pierre Du Terrail à Pontcharra-sur-bréda (38)</p>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <!-- end timeline -->
+                            </div>
+                            <!-- End window content -->
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hobbies-window" class="window text-center bg-light">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="window-content col-md-11">
+                            <div class="m-auto">
+                                <div class="mr-5 window-header d-flex justify-content-between">
+                                    <h2 class="page-title">Loisirs</h2>
+                                    <a class="my-auto align-middle" data-toggle="modal" data-target="#chooseLanguage">
+                                        <div class="my-auto align-middle download-alert alert alert-info d-flex justify-content-between" role="alert">
+                                            <strong style="min-width: fit-content">Téléchargez la version pdf ! </strong>
+                                            <img class="ml-4" height="25px" width="25px" src="images/curriculum_vitae/download_icon.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            <div class="col-md-10 mx-auto">
+                
+                                <!-- cards container -->
+                                <div class="row my-3">
+                                    <div class="card-deck">
+                
+                                        <!-- card -->
+                                        <div class="card m-3">
+                                            <img alt="Outdoor" height="128px" width="128px" src="images/curriculum_vitae/hobbies/backpack.png"/>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Outdoor</h5>
+                                                <p>Rando-Trail</p>
+                                                <p>Randonnée bivouac</p>
+                                                <p>Alpinisme (ascension du Mont-Blanc)</p>
+                                            </div>
+                                        </div>
+                                        <!-- end card -->
+                
+                                        <!-- card -->
+                                        <div class="card m-3">
+                                            <img class="rotated" alt="Running" height="128px" width="128px" src="images/curriculum_vitae/hobbies/running_shoes.png"/>
+                                            <div class="card-body">
+                                                <p>Arbitrage de football (Régional - JAL 1)</p>
+                                                <p>Pratique du football (uniquement loisirs et universitaire)</p>
+                                                <p>Course à pied (marathon de Florence, Moscou)</p>
+                                            </div>
+                                        </div>
+                                        <!-- end card -->
+                
+                                        <!-- card -->
+                                        <div class="card m-3">
+                                            <img alt="Others sports" height="128px" width="128px" src="images/curriculum_vitae/hobbies/vtt.png"/>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Autres sports</h5>
+                                                <p>VTT</p>
+                                                <p>Vélo de route</p>
+                                                <p>Ski de piste, anciennement en compétition</p>
+                                                <p>Tir à l’arc, en compétition pendant 2 ans</p>
+                                            </div>
+                                        </div>
+                                        <!-- end card -->
+                
+                                        <!-- card -->
+                                        <div class="card m-3">
+                                            <img alt="Music" height="128px" width="128px" src="images/curriculum_vitae/hobbies/drum_set.png"/>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Musique</h5>
+                                                <p>5 ans de batterie</p>
+                                                <p>6 ans de solfège</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end card -->
+                
+                                </div>
+                                <!-- end cards container -->
+                            </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- shader -->
+            <div id="shader" class="shader"></div>
+        </div>
+
+        <!-- modals -->
+
+        <!--  - BACKGROUND WINDOW MODALS -  -->
+        <div class="modal fade" id="lyon1_grades" tabindex="-1" role="dialog" aria-labelledby="notes_m1_label" aria-hidden="true">
+            <!-- Lyon 1 master grades -->
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="lyon1_grades_label">Notes de Master 1 - Informatique</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- modal body -->
+                    <div class="modal-body">
+                        <div class="row">
+                            <!-- Notes du premier semestre -->
+                            <div class="col-md-6">
+                                <!-- Grades header -->
+                                <div class="d-flex justify-content-between">
+                                    <h4 class="m-4"><u>Premier semestre</u></h4>
+                                    <div class="my-auto">
+                                        <div class="btn btn-outline-success hover-info-button mx-2 btn-sm">
+                                            <p class="before-hover">Moyenne</p>
+                                            <p class="after-hover">12,39 / 20</p>
+                                        </div>
+                                        <div class="btn btn-outline-info hover-info-button mx-2 my-auto btn-sm">
+                                            <p class="before-hover">Classement</p>
+                                            <p class="after-hover">33 ième / 160</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Grades table -->
+                                <table class="table">
+                                    <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">Matière</th>
+                                        <th scope="col">Crédits</th>
+                                        <th scope="col">Moyenne</th>
+                                        <th scope="col">Classement</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Génie logiciel</td>
+                                        <td>-</td>
+                                        <td>11,815</td>
+                                        <td>73/160</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Conception D'Applications Web</td>
+                                        <td>-</td>
+                                        <td>10,041</td>
+                                        <td>74/161</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gestion De Données Pour Le Web</td>
+                                        <td>-</td>
+                                        <td>13</td>
+                                        <td>27/145</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Réseaux</td>
+                                        <td>-</td>
+                                        <td>10.482</td>
+                                        <td>61/153</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bases De L'Intelligence Artificielle</td>
+                                        <td>-</td>
+                                        <td>15.00</td>
+                                        <td>16/157</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Compilation et traduction des programmes</td>
+                                        <td>-</td>
+                                        <td>13,631</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Calculabilité Et Complexité</td>
+                                        <td>-</td>
+                                        <td>18,2</td>
+                                        <td>2/160</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Notes du second semestre -->
+                            <div class="col-md-6">
+                                <!-- Grades header -->
+                                <div class="d-flex justify-content-between">
+                                    <h4 class="m-4"><u>Second semestre</u></h4>
+                                    <div class="my-auto">
+                                        <div class="btn btn-outline-success hover-info-button mx-2 btn-sm">
+                                            <p class="before-hover">Moyenne</p>
+                                            <p class="after-hover">14,6/20</p>
+                                        </div>
+                                        <div class="btn btn-outline-info hover-info-button mx-2 my-auto btn-sm">
+                                            <p class="before-hover">Classement</p>
+                                            <p class="after-hover">23 ième / 174</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Grades table -->
+                                <table class="table">
+                                    <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">Matière</th>
+                                        <th scope="col">Crédits</th>
+                                        <th scope="col">Moyenne</th>
+                                        <th scope="col">Classement</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Projet Pour L'Orientation En Master</td>
+                                        <td>-</td>
+                                        <td>12,791</td>
+                                        <td>59/123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Algorithmique Distribuée</td>
+                                        <td>-</td>
+                                        <td>15,5</td>
+                                        <td>44/111</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bases De Données Déductives</td>
+                                        <td>-</td>
+                                        <td>13,9</td>
+                                        <td>49/76</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Technique De L'Intelligence Artificielle</td>
+                                        <td>-</td>
+                                        <td>14,73</td>
+                                        <td>15/79</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Evaluation Des Performances Des Systèmes</td>
+                                        <td>-</td>
+                                        <td>17</td>
+                                        <td>2/55</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Projet Transversal Innovant</td>
+                                        <td>-</td>
+                                        <td>16,5</td>
+                                        <td>19/63</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Parallélisme</td>
+                                        <td>-</td>
+                                        <td>13,925</td>
+                                        <td>18/49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Théorie Des Jeux</td>
+                                        <td>-</td>
+                                        <td>16</td>
+                                        <td>3/71</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Anglais</td>
+                                        <td>-</td>
+                                        <td>13,38</td>
+                                        <td>57/134</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Uottawa grades -->
+        <div class="modal fade" id="uottawa_grades" tabindex="-1" role="dialog" aria-labelledby="notes_m1_label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="uottawa_grades_label">Notes de Master 1 - Informatique</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- modal body -->
+                    <div class="modal-body">
+                        <!-- Autumn term grades -->
+                        <!-- Grades header -->
+                        <div class="d-flex justify-content-between">
+                            <h4 class="m-4"><u>Semestre d'automne</u></h4>
+                        </div>
+
+                        <!-- Grades table -->
+                        <table class="table">
+                            <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Matière</th>
+                                <th scope="col">Note</th>
+                                <th scope="col">Moyenne</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Concepts des langages de programmation</td>
+                                <td>A</td>
+                                <td>16,18</td>
+                            </tr>
+                            <tr>
+                                <td>Design and analysis of algorithms II</td>
+                                <td>B+</td>
+                                <td>14,48</td>
+                            </tr>
+                            <tr>
+                                <td>Foundation of Modelling and Simulation</td>
+                                <td>B</td>
+                                <td>13,5</td>
+                            </tr>
+                            <tr>
+                                <td>Introduction à l'intelligence artificielle</td>
+                                <td>B+</td>
+                                <td>16,22</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  - END BACKGROUND WINDOW MODALS -  -->
+
+        <!-- Choose language for resume -->
+        <div class="modal fade" id="chooseLanguage" tabindex="-1" role="dialog" aria-labelledby="chooseLanguageLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="chooseLanguageLabel">Choisissez une langue pour le C.V.</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- modal body -->
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-around">
+
+                            <a class=" mx-4 my-4 align-middle" href="documents/C.V.-CSI.pdf">
+                                <img style="border-radius: 10px" height="150px" src="images/base/drapeau_français.png" alt="Drapeau français">
+                            </a>
+                            <a class=" mx-4 my-4 align-middle" href="documents/C.V.-CSI_EN.pdf">
+                                <img style="border-radius: 10px" height="150px" src="images/base/english_flag.jpeg" alt="Drapeau de la Grande-Bretagne">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End choose languagefor resume -->
+        
+        <!-- footer -->
+        <div class="footer">
+            <!-- Social networks -->
+            <div class="row d-flex justify-content-center p-5">
+                <a href="https://www.linkedin.com/in/hedwin-bonnavaud-2781b210b/?originalSubdomain=fr<">
+                    <img width="70px" height="70px" src="images/links/linkedIn_white.png">
+                </a>
+                <a href="https://www.instagram.com/hbonnavaud/?hl=fr">
+                    <img width="70px" height="70px" src="images/links/instagram_white_2.png">
+                </a>
+                <a href="https://www.facebook.com/hedwin.bonnavaud/">
+                    <img width="70px" height="70px" src="images/links/facebook_white.png">
+                </a>
+            </div>
+
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p class="d-flex justify-content-center"><a href="index.html">Accueil</a></p>
+                        <p class="d-flex justify-content-center"><a href="curriculum_vitae.html">Curriculum-vitae</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p class="d-flex justify-content-center"><a href="projects.html">Projets et réalisations</a></p>
+                        <p class="d-flex justify-content-center"><a href="contact.html">Contactez-moi</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="legal-mention text-center p-4">
+                <p style="padding: 10px">Tous droits réservés © 2020 Hedwin Bonnavaud</p>
+            </div>
+        </div>
+
+        <!-- bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- javascript -->
+        <script type="text/javascript" src="js/curriculum/curriculum_vitae.js"></script>
+        <script type="text/javascript" src="js/curriculum/Chart.min.js"></script>
+        <script type="text/javascript" src="js/curriculum/skills_charts.js"></script>
+        <script type="text/javascript">
+            function downloadCV() {
+                console.log("Downloading CV ...");
+            }
+        </script>
+    </body>
+</html>
